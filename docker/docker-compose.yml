@@ -3,9 +3,8 @@ version: "3.8"
 services:
   web:
     build:
-      context: ..
+      context: .
       dockerfile: docker/Dockerfile
-    container_name: mi_app
     ports:
       - "80:5000"
     restart: always
